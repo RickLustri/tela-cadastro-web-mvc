@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/cadastro-styles.css">
+  <title>Cadastro</title>
+</head>
+
+<body>
+  <div id="conteiner">
+    <img src="images/logo.png" alt="logo">
+
+    <form id="formulario" action="/criar-conta" method="post">
+    
+      <label for="nomeCompleto">Nome completo</label>
+      <input type="text" name="nomeCompleto" placeholder="Digite o nome completo">
+
+      <label for="email">E-mail</label>
+      <input type="email" name="email" placeholder="Digite seu e-mail">
+
+      <label for="senha">Senha</label>
+      <input type="password" name="senha" placeholder="Digite a senha">
+
+      <button type="submit">Cadastrar</button>
+    </form>
+  </div>
+</body>
+
+</html>
